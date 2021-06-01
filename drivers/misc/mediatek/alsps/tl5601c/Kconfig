@@ -1,0 +1,4 @@
+
+config MTK_TL5601C
+	bool "tl5601c for MediaTek package"
+	default n

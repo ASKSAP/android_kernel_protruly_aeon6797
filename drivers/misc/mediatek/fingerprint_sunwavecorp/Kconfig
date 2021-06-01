@@ -1,0 +1,5 @@
+config MTK_FINGERPRINT_SUNWAVECORP
+       bool "SUNWAVECORP finger for MediaTek"
+       default n
+       help
+          SUNWAVECORP Fingerprint

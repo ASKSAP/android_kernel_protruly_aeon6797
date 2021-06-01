@@ -1,0 +1,5 @@
+config HALL_MTK
+	tristate "MediaTek Hall Support"
+  default n
+	help
+    CONFIG_HALL_MTK

@@ -1,0 +1,19 @@
+menuconfig MTK_TEMPSEN
+	tristate "TEMPSEN drivers"
+	default n
+	---help---
+	  Say Y here for supporting TEMPSEN.
+	  Say Y here for supporting TEMPSEN.
+	  Say Y here for supporting TEMPSEN.
+
+if MTK_TEMPSEN
+
+config TEMPSEN_MLX90615 # MTK_TEMPSEN
+	tristate "MediaTek TEMPSEN driver"
+	default n
+	help
+	  Y means MTK_TEMPSEN define if use Mediatek TEMPSEN Function to provide reader
+	  Card emulation or P2P function. If you are not sure about this, set n.
+	  Y means MTK_TEMPSEN define if use Mediatek TEMPSEN Function to provide reader
+	  Card emulation or P2P function. If you are not sure about this, set n.
+endif # TEMPSEN

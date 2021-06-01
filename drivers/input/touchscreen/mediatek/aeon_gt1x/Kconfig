@@ -1,0 +1,7 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_AEON_GT1X
+
+
+endif

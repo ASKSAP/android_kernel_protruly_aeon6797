@@ -1,0 +1,5 @@
+config MTK_FINGERPRINT_GOODIX_GFX1XM
+       bool "goodix finger for MediaTek"
+       default n
+       help
+          Goodix Fingerprint chip GF316M/GF516M/GF318M
